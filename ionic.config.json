@@ -1,0 +1,7 @@
+{
+  "name": "abarrotesDuoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
