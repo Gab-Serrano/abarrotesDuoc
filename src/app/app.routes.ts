@@ -1,5 +1,4 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
@@ -20,12 +19,4 @@ export const routes: Routes = [
     loadComponent: () => import('./registration/registration.page').then( m => m.RegistrationPage)
   },
 ];
-
-@NgModule({
-  imports: [
-    RouterModule.forRoot(routes)
-  ],
-  exports: [RouterModule]
-})
-export class AppRoutingModule {}
 
